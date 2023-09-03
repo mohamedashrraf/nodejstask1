@@ -34,7 +34,6 @@ const sortNumbers = (numArr) => {
     for (let i = 0; i < numArr.length - 1; i++) {
         for (let j = 0; j < numArr.length - i - 1; j++) {
             if (numArr[j] < numArr[j + 1]) {
-                // Swap the elements if they are out of order.
                 const temp = numArr[j];
                 numArr[j] = numArr[j + 1];
                 numArr[j + 1] = temp;
